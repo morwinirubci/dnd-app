@@ -1,0 +1,66 @@
+body{
+    background-color: #f5f0e1;
+}
+.container {
+    padding: 10px 20px;
+    border: 1px solid grey;
+    width: 350px;
+    margin: 1em auto;
+    box-shadow: 0 0 15px 1px #80808094;
+    background-color: #1e847f;
+}
+h1 {
+    margin-bottom: 1em;
+    text-align: center;
+    border-bottom: 2px solid #f5f0e1;
+    padding-bottom: 7px;
+    text-shadow: 2px 2px #f5f0e1;
+
+}
+.createTodo{
+    display: flex;
+    justify-content: space-between;
+}
+.createTodo>input{
+    margin-right: 1em;
+    width: 80%;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 20px;
+    outline: none;
+    background: #f5f0e1;
+}
+.app_createTodo__Ugs1o>input::placeholder{
+    color: black;
+}
+
+.createTodo>button{
+    font-weight: 700;
+    width: 100px;
+    background-color: #282525;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #f5f0e1;
+}
+.createTodo>button:hover{
+    opacity: 0.9;
+    transform: scale(1.01);
+}
+.todoItem {
+    list-style: none;
+    border: 1px solid black;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 2em 0;
+    padding: 5px;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f0e1;
+    cursor: pointer;
+}
+.footer{
+    color: #f5f0e1;
+}
